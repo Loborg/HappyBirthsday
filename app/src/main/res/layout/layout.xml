@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/hband"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <!--<RelativeLayout
+        android:id="@+id/relative_1"
+        android:layout_toRightOf="@id/relative_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp">-->
+
+        <LinearLayout
+            android:id="@+id/relative_1"
+            android:layout_toRightOf="@id/relative_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8sp">
+
+            <TextView
+                android:text="Happy Birthsday"
+                android:background="#3F51B5"
+                android:textColor="@android:color/white"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F44336"
+                android:padding="8dp"
+                android:text="Zani!"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout
+        android:id="@+id/relative_2"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8sp"
+        android:layout_marginTop="8sp">-->
+
+        <ImageView
+            android:id="@+id/relative_2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="8sp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/hb" />
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout
+        android:id="@+id/relative_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8sp"
+        android:layout_marginBottom="8sp">-->
+
+        <ImageView
+            android:id="@+id/relative_3"
+            android:layout_alignParentBottom="true"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/hb"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"/>
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout
+        android:id="@+id/relative_4"
+        android:layout_toRightOf="@id/relative_3"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8sp">-->
+
+        <LinearLayout
+            android:layout_toRightOf="@id/relative_3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="From"
+                android:background="#3F51B5"
+                android:textColor="@android:color/white"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F44336"
+                android:padding="8dp"
+                android:text="Gábor"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    <!--</RelativeLayout>-->
+</RelativeLayout>
